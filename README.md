@@ -34,19 +34,22 @@ These instructions will get you a copy of the project up and running on your loc
 #### Clone the repo
 
 ```bash
-git clone https://github.com/excalidraw/excalidraw.git
+git clone https://github.com/telecran-telecrit/drawboard-light.git # excalidraw fork
+git submodule update --init --recursive
+rm -rf node_modules/*; rm -rf node_modules/.bin; rm -rf node_modules/.cache # if have problems with git commit, husky or want clean start
+
 ```
 
 #### Commands
 
-| Command               | Description                       |
-| --------------------- | --------------------------------- |
-| `npm install`         | Install the dependencies          |
-| `npm start`           | Run the project                   |
-| `npm run fix`         | Reformat all files with Prettier  |
-| `npm test`            | Run tests                         |
-| `npm run test:update` | Update test snapshots             |
-| `npm run test:code`   | Test for formatting with Prettier |
+ Command             - Description                       
+ 
+ `yarn || npm install`       - Install the dependencies          
+ `npm start || yarn start || npm run-script start`         - Run the project                   
+ `npm run fix`       - Reformat all files with Prettier  
+ `npm test`            - Run tests                         
+ `npm run test:update` - Update test snapshots             
+ `npm run test:code`   - Test for formatting with Prettier 
 
 ## Contributing
 
