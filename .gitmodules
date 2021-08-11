@@ -1,0 +1,3 @@
+[submodule "node_modules"]
+	path = node_modules
+	url = https://github.com/telecran-telecrit/drawboard-node_modules-amd64.git
