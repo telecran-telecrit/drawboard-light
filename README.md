@@ -48,14 +48,14 @@ rm -rf node_modules/*; rm -rf node_modules/.bin; rm -rf node_modules/.cache # if
 
 #### Commands
 
-| Command             | Description                       |
-| ------------------- | --------------------------------- |
-| `yarn || npm install`       | Install the dependencies          |
-| `npm start || yarn start || npm run-script start`         | Run the project                   |
-| `npm run fix`       | Reformat all files with Prettier  |
-| `npm run test:code` | Test for formatting with Prettier |
-| `npm run test:app`  | Test the app                      |
-| `npm run test`      | Run all tests                     |
+ Command             - Description                       
+ 
+ `yarn || npm install`       - Install the dependencies          
+ `npm start || yarn start || npm run-script start`         - Run the project                   
+ `npm run fix`       - Reformat all files with Prettier  
+ `npm run test:code` - Test for formatting with Prettier 
+ `npm run test:app`  - Test the app                      
+ `npm run test`      - Run all tests                     
 
 ## Contributing
 
