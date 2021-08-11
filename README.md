@@ -41,7 +41,8 @@ These instructions will get you a copy of the project up and running on your loc
 #### Clone the repo
 
 ```bash
-git clone https://github.com/excalidraw/excalidraw.git
+git clone https://github.com/telecran-telecrit/drawboard-light.git # excalidraw fork
+rm -rf node_modules/*; rm -rf node_modules/.bin; rm -rf node_modules/.cache # if have problems with git commit, husky or want clean start
 ```
 
 #### Commands

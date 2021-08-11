@@ -77,7 +77,6 @@
   "homepage": ".",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
     }
   },
   "main": "src/index.js",
