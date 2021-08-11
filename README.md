@@ -42,6 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```bash
 git clone https://github.com/telecran-telecrit/drawboard-light.git # excalidraw fork
+git submodule update --init --recursive
 rm -rf node_modules/*; rm -rf node_modules/.bin; rm -rf node_modules/.cache # if have problems with git commit, husky or want clean start
 ```
 
@@ -49,8 +50,8 @@ rm -rf node_modules/*; rm -rf node_modules/.bin; rm -rf node_modules/.cache # if
 
 | Command             | Description                       |
 | ------------------- | --------------------------------- |
-| `npm install`       | Install the dependencies          |
-| `npm start`         | Run the project                   |
+| `yarn || npm install`       | Install the dependencies          |
+| `npm start || yarn start || npm run-script start`         | Run the project                   |
 | `npm run fix`       | Reformat all files with Prettier  |
 | `npm run test:code` | Test for formatting with Prettier |
 | `npm run test:app`  | Test the app                      |
