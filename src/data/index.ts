@@ -24,10 +24,10 @@ export { loadFromBlob } from "./blob";
 export { saveAsJSON, loadFromJSON } from "./json";
 export { saveToLocalStorage } from "./localStorage";
 
-const BACKEND_GET = "https://json.excalidraw.com/api/v1/";
+const BACKEND_GET = "http://localhost:2998/json/api/v1/"; ///"https://json.excalidraw.com/api/v1/";
 
-const BACKEND_V2_POST = "https://json.excalidraw.com/api/v2/post/";
-const BACKEND_V2_GET = "https://json.excalidraw.com/api/v2/";
+const BACKEND_V2_POST = "http://localhost:2998/json/api/v2/post/"; ///"https://json.excalidraw.com/api/v2/post/";
+const BACKEND_V2_GET = "http://localhost:2998/json/api/v2/"; ///"https://json.excalidraw.com/api/v2/";
 
 export const SOCKET_SERVER = "http://localhost:2999"; ///"https://portal.excalidraw.com"; ///"https://excalidraw-socket.herokuapp.com";
 
