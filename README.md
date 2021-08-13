@@ -40,6 +40,13 @@ rm -rf node_modules/*; rm -rf node_modules/.bin; rm -rf node_modules/.cache # if
 
 ```
 
+#### Dependants servers start
+
+```bash
+bash -c "cd ./drawboard-portal-room; npm install; npm run-script build; PORT=2999 npm start"& #SOCKET_SERVER 
+
+```
+
 #### Commands
 
  Command             - Description                       

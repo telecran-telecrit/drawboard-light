@@ -1,3 +1,6 @@
 [submodule "node_modules"]
 	path = node_modules
 	url = https://github.com/telecran-telecrit/drawboard-node_modules-amd64.git
+[submodule "drawboard-portal-room"]
+	path = drawboard-portal-room
+	url = https://github.com/telecran-telecrit/drawboard-portal-room
