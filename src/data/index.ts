@@ -29,7 +29,7 @@ const BACKEND_GET = "https://json.excalidraw.com/api/v1/";
 const BACKEND_V2_POST = "https://json.excalidraw.com/api/v2/post/";
 const BACKEND_V2_GET = "https://json.excalidraw.com/api/v2/";
 
-export const SOCKET_SERVER = "https://excalidraw-socket.herokuapp.com";
+export const SOCKET_SERVER = "http://localhost:2999"; ///"https://portal.excalidraw.com"; ///"https://excalidraw-socket.herokuapp.com";
 
 export type EncryptedData = {
   data: ArrayBuffer;
